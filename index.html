@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+   
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- Import the webpage's javascript file -->
+    <script type = "module" src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <label for="group-by">Group By</label>
+      <select id="group-by">
+        <option value="stores">Stores worldwide</option>
+        <option value="revenue">Revenue in billion U.S. dollars</option>
+      </select>
+      <button class = "sort">Sort</button>
+      <div class = "chart">
+      </div>
+    </div>
+  <script type="module" src="script.js" defer></script>
+  </body>
+</html>
